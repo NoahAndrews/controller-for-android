@@ -34,7 +34,7 @@ class RemoSettingsUtil(context : Context, sharedPreferences: SharedPreferences) 
     @Deprecated("No longer used, and will be removed in the future")
     val audioUrl = EndpointBuilder.getAudioUrl(context, channelId.getPref())
 
-    //hardware related settings
+    //hardware related settingsp
     val robotSettingsEnable = BooleanPref(context, sharedPreferences, R.string.robotSettingsEnableKey, false)
     val robotCommunicationDriver = ClassPref(context, sharedPreferences, R.string.robotConnectionTypeKey,
         FelhrUsbSerialDriver::class.java)

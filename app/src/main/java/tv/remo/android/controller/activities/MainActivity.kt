@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             return@setOnTouchListener false
         }
         binding.settingsButton.setOnClickListener(this)
-        binding.powerButton?.setOnClickListener(this)
+        binding.powerButton.setOnClickListener(this)
     }
 
     private fun buildStatusList() {
